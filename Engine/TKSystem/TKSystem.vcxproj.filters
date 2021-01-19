@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TKFile.h" />
+    <ClInclude Include="TKImage.h" />
+    <ClInclude Include="TKLog.h" />
+    <ClInclude Include="TKMemManager.h" />
+    <ClInclude Include="TKPlatform.h" />
+    <ClInclude Include="TKSynchronize.h" />
+    <ClInclude Include="TKSystem.h" />
+    <ClInclude Include="TKThread.h" />
+    <ClInclude Include="TKTimer.h" />
+    <ClInclude Include="TKUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TKTimer.cpp" />
+    <ClCompile Include="TKThread.cpp" />
+    <ClCompile Include="TKSystem.cpp" />
+    <ClCompile Include="TKSynchronize.cpp" />
+    <ClCompile Include="TKMemManager.cpp" />
+    <ClCompile Include="TKLog.cpp" />
+    <ClCompile Include="TKImage.cpp" />
+    <ClCompile Include="TKFile.cpp" />
+  </ItemGroup>
+</Project>
